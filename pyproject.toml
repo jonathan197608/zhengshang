@@ -1,13 +1,13 @@
 [project]
 name = "zhengshang"
-version = "0.1.0"
+version = "0.1.2"
 description = "从商客商机接龙中提取关键信息并保存到excel表格中"
 readme = "README.md"
 authors = [
     { name = "huangyp3gd", email = "huangyp3.gd@chinatelecom.cn" }
 ]
 requires-python = ">=3.13"
-dependencies = ["requests", "openpyxl", "mcp"]
+dependencies = ["pydantic", "openpyxl", "fastmcp"]
 
 [project.scripts]
 zhengshang = "zhengshang:main"
